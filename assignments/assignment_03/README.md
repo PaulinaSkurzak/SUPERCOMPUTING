@@ -31,8 +31,6 @@ assignment_03/
 ├── data/
 │   └── GCF_000001735.4_TAIR10.1_genomic.fna
 
-All file names contain no spaces and are stored in the correct directory.
-
 ## Setup
 
 Navigate to assignment directory:
