@@ -28,7 +28,8 @@ The directory contains:
 
 assignment_03/
 ├── README.md
-├── GCF_000001735.4_TAIR10.1_genomic.fna
+├── data/
+│   └── GCF_000001735.4_TAIR10.1_genomic.fna
 
 All file names contain no spaces and are stored in the correct directory.
 
