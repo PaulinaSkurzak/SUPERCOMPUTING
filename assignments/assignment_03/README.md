@@ -29,9 +29,6 @@ The directory contains:
 assignment_03/
 ├── README.md
 ├── GCF_000001735.4_TAIR10.1_genomic.fna
-├── headers.txt
-├── sequences.txt
-└── GCF_000001735.4_TAIR10.1_genomic.tsv
 
 All file names contain no spaces and are stored in the correct directory.
 
@@ -84,6 +81,7 @@ grep '^>' "$F" | sort | head -n 1
 grep '^>' "$F" > headers.txt
 grep -v '^>' "$F" > sequences.txt
 paste headers.txt sequences.txt > GCF_000001735.4_TAIR10.1_genomic.tsv
+```
 
 ## Reflection 
 For this assignment, my approach was to break each question into small, testable commands and run them step by step in the terminal. Before writing anything into the README, I verified that each command produced the expected type of output. I found that setting a file variable (`F=...`) at the beginning made the workflow cleaner, reduced repetition, and minimized path-related errors. It also made the overall process much easier to manage when running multiple commands on the same file.
