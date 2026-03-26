@@ -1,0 +1,9 @@
+data/raw/
+data/clean/
+data/dog_reference/
+data/tmp/
+output/*.sam
+ref/
+*.fastq
+*.fna
+*.zip
